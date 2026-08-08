@@ -192,7 +192,7 @@ No Python dependencies required for PDF generation.
 - **Styled code blocks** — JSON schema templates render with dark monospace theme
 
 ### Templates
-Bundled at `~/.claude/skills/geo/templates/`:
+Bundled at `${CLAUDE_PLUGIN_ROOT}/templates/`:
 - `geo-report-style.css` — stylesheet (edit colors, fonts, layout here)
 - `geo-report-template.html` — pandoc HTML template (edit cover fields here)
 
@@ -202,8 +202,8 @@ Bundled at `~/.claude/skills/geo/templates/`:
    ```bash
    pandoc GEO-AUDIT-REPORT.md \
      --to html5 --standalone --embed-resources \
-     --template ~/.claude/skills/geo/templates/geo-report-template.html \
-     --css ~/.claude/skills/geo/templates/geo-report-style.css \
+     --template ${CLAUDE_PLUGIN_ROOT}/templates/geo-report-template.html \
+     --css ${CLAUDE_PLUGIN_ROOT}/templates/geo-report-style.css \
      --metadata brand_name="..." --metadata geo_score="..." \
      -o GEO-REPORT.html
 

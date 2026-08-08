@@ -1,0 +1,35 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "gerdmant-geo-seo-claude",
+  "owner": {
+    "name": "Gerdmant",
+    "url": "https://github.com/Gerdmant"
+  },
+  "metadata": {
+    "description": "Plugin-packaged fork of zubair-trabzada/geo-seo-claude — Generative Engine Optimization skills for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "geo-seo-claude",
+      "source": "./",
+      "description": "15 GEO skills and 5 subagents for optimizing sites toward AI search citation: citability scoring, AI crawler access, llms.txt, brand mentions, per-platform optimization, schema, technical SEO and client reports.",
+      "author": {
+        "name": "Zubair Trabzada",
+        "url": "https://github.com/zubair-trabzada"
+      },
+      "category": "marketing",
+      "keywords": [
+        "geo",
+        "generative-engine-optimization",
+        "aeo",
+        "ai-search",
+        "seo",
+        "llms-txt",
+        "citability",
+        "ai-crawlers",
+        "schema-markup",
+        "brand-mentions"
+      ]
+    }
+  ]
+}

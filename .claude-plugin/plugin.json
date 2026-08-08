@@ -1,0 +1,12 @@
+{
+  "name": "geo-seo-claude",
+  "description": "GEO-first SEO skills: AI citability scoring, AI crawler access mapping, llms.txt analysis, brand mention scanning, platform-specific optimization for AI Overviews / ChatGPT / Perplexity / Gemini / Copilot, schema markup, technical SEO and client-ready GEO reports.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Zubair Trabzada",
+    "url": "https://github.com/zubair-trabzada"
+  },
+  "homepage": "https://github.com/zubair-trabzada/geo-seo-claude",
+  "repository": "https://github.com/Gerdmant/geo-seo-claude",
+  "license": "MIT"
+}
