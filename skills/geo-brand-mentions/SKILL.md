@@ -242,7 +242,7 @@ For each platform, use WebFetch to search and assess presence:
 
 **Method 1 — Python API check (MOST RELIABLE, do this FIRST):**
 ```bash
-python3 -c "
+~/.claude/venvs/geo-seo-claude/bin/python -c "
 import requests, json
 from urllib.parse import quote_plus
 brand = '[Brand_Name]'

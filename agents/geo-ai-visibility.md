@@ -115,7 +115,7 @@ Search for the brand/site name across platforms frequently cited by AI models:
 3. **Wikipedia (CRITICAL — use API check, not just web search)**:
    - **FIRST**, run the Wikipedia API directly via Bash to check definitively:
      ```bash
-     python3 -c "
+     ~/.claude/venvs/geo-seo-claude/bin/python -c "
      import requests; from urllib.parse import quote_plus
      brand='[BRAND_NAME]'
      r=requests.get(f'https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch={quote_plus(brand)}&format=json', headers={'User-Agent':'GEO-Audit/1.0'}, timeout=15)
